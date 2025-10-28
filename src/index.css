@@ -1,0 +1,29 @@
+:root{
+  --bg: #f8f9fa;
+  --text: #212529;
+  --card: #fff;
+}
+
+body.dark{
+  --bg: #121212;
+  --text: #e9ecef;
+  --card: #1e1e1e;
+}
+
+body{
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0; padding:0;
+}
+
+.card-custom{
+  background: var(--card);
+  color: var(--text);
+}
+
+.modal-backdrop-custom{
+  position: fixed; inset:0; background: rgba(0,0,0,0.4); display:flex; align-items:center; justify-content:center; z-index:1050;
+}
+
+.modal-custom{ width: 680px; max-width:95%; }
